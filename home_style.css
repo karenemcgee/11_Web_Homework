@@ -1,0 +1,25 @@
+.bg-light {
+    background-color: #4EACA6!important;
+}
+
+.navbar-light .navbar-brand {
+    color: #FEFEFE;
+    font-weight: bold;
+}
+
+.row {
+    padding-top: 30px;
+}
+
+.top-align-right {
+    text-align: right;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn {
+    background-color: #4EACA6;
+    border-color: #4EACA6;
+}
