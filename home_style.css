@@ -7,9 +7,7 @@
     font-weight: bold;
 }
 
-.row {
-    padding-top: 30px;
-}
+
 
 .top-align-right {
     text-align: right;
@@ -22,10 +20,6 @@
 .btn {
     background-color: #4EACA6;
     border-color: #4EACA6;
-}
-
-.col-md-3 {
-    padding: 0px;
 }
 
 .header-center {
