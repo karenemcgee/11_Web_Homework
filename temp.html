@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Latitude</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="home_style.css"> 
+    
+</head>
+
+<body>
+
+    <!--NAV BAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto"> <!--CHECK THIS OUT-->
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="./humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="./temp.html">Temperature</a>
+                    <a class="dropdown-item" href="./wind.html">Wind</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./comparisons.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./data.html">Data</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+        
+    <!--CONTENT-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="header-center">Maximum Temperature and Latitude</h1>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./img_temp.png" alt="Temperature Plot" width="100%"/>
+            </div>
+            <div class="col-md-6">
+                <br />
+                <p>
+                    As expected, the highest maximum temperatures among this random set of 500+ cities was found closes to the equator. The chart resembles a parabola with the highest temperatures in the middle - close to 0 degrees longitude - and temperatures decreasing as you move farther away from the center. While it looks like the lowest temperatures are only found in the higher positive degrees (60-90 degrees, which is the Arctic Circle), one can assume that temperatures are similarly low at -60 to -90 degrees (which is Antarctica). The reason the chart does not include any cities in the southernmost latitudes is because there are so few cities that far south, so the random city generator did not seem to select any of the very few cities in that region.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Visualizations Section-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="header-center">Visualizations</h3>
+                <hr />  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 center-block">
+                <div class="card" style="width: 16rem;">
+                    <img src="./img_cloudiness.png" class="card-img-top" alt="Cloudiness plot">
+                    <div class="card-body">
+                        <a href="./cloudiness.html" class="btn btn-primary">Cloudiness</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 center-block">
+                <div class="card" style="width: 16rem;">
+                    <img src="./img_humidity.png" class="card-img-top" alt="Humidity plot">
+                    <div class="card-body">
+                        <a href="./humidity.html" class="btn btn-primary">Humidity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 center-block">
+                <div class="card" style="width: 16rem;">
+                    <img src="./img_temp.png" class="card-img-top" alt="Temperature plot">
+                    <div class="card-body">
+                        <a href="./temp.html" class="btn btn-primary">Temperature</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 center-block">
+                <div class="card" style="width: 16rem;">
+                    <img src="./img_wind.png" class="card-img-top" alt="Wind plot">
+                    <div class="card-body">
+                        <a href="./wind.html" class="btn btn-primary">Wind</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+</body>
+
+</html>
