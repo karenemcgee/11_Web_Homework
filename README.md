@@ -1,6 +1,6 @@
 # Unit 11 | Assignment - Web Visualization Dashboard (Latitude)
 
-Click [here](https://github.com/karenemcgee/11_Web_Homework) for deployed website.
+Click [here](https://karenemcgee.github.io/HTML_CSS_JS_WebVizDashboard/index.html) for deployed website.
 
 ## Background
 
