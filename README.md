@@ -1,4 +1,4 @@
-# Unit 11 | Assignment - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard (Latitude)
 
 Click [here](https://karenemcgee.github.io/HTML_CSS_JS_WebVizDashboard/index.html) for deployed website.
 
